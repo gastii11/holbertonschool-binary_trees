@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * binary_tree_preorder - funcion para preordenar
- * @tree: es un puntero al nodo de la raiz del arbol binario que queremos recorrer
+ * @tree: es un puntero al nodo de la raiz del arbol
  * @func: es un puntero a una función que se ejecutará en cada nodo dearbol
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
