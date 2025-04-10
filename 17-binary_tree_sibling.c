@@ -7,7 +7,7 @@
  * Return: Pointer to the sibling node, or NULL if node is NULL,
  *         parent is NULL, or if node has no sibling
  */
-binary_tree_t binary_tree_is_sibling(binary_tree_t *node)
+binary_tree_t *binary_tree_sibling(const binary_tree_t *node)
 {
 	if (node == NULL || node->parent == NULL)
 		return (NULL);
